@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 22,
     marginTop: 50,
+    color: '#fff',
   },
 
   micButton: {

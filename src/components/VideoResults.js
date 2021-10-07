@@ -53,7 +53,7 @@ const VideoResults = ({ style }) => {
 
   return (
     <View style={style}>
-      <Text>Showing results for "{speechToText.transcript}"</Text>
+      <Text style={styles.resultsText}>Showing results for "{speechToText.transcript}"</Text>
       <Video
         source={{
           uri: currentVideo.uri,
@@ -82,5 +82,9 @@ const styles = StyleSheet.create({
     width: '100%',
     position: 'absolute',
     textAlign: 'center',
+  },
+
+  resultsText: {
+    color: '#fff',
   },
 });
